@@ -22,7 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get all Chicago public library information, run this code:
+
+```ruby 
+libraries = ChicagoLibraries::Library.all
+```
+
+To get all Chicago public library information with a search keyword, run this code:
+
+```ruby
+libraries = ChicagoLibraries::Library.search('park')
+```
+
+replace 'park' with your own search keyword. 
 
 ## Development
 
