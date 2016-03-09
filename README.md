@@ -28,7 +28,7 @@ To get all Chicago public library information, run this code:
 libraries = ChicagoLibraries::Library.all
 ```
 
-To get all Chicago public library information with a search keyword, run this code:
+To get all Chicago public library information using a search keyword, run this code:
 
 ```ruby
 libraries = ChicagoLibraries::Library.search('park')
